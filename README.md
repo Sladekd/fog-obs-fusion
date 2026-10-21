@@ -7,7 +7,7 @@ Fusing surface observations, soundings and NWP to understand and forecast fog an
 [![Fog figures in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/02_fog_figures.ipynb)
 &nbsp;Fog figures
 
-
+\n
 <p align="center"><img src="figures/fig_fog_clock.png" width="900" alt="Fog web: stations glow by fog frequency, links by shared fog"></p>
 <p align="center"><img src="figures/fog_night.gif" width="640" alt="The foggiest night, hour by hour"></p>
 
