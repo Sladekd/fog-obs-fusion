@@ -2,22 +2,18 @@
 
 Fusing surface observations, soundings and NWP to understand and forecast fog and visibility, built on a graph of Czech SYNOP stations.
 
-[![Station graph in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/01_station_graph.ipynb)
+[![Station graph in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/01_station_graph.ipynb) Station graph &nbsp;·
 
-Station graph &nbsp;·
-
-[![Fog figures in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/02_fog_figures.ipynb)
-Fog figures
+[![Fog figures in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/02_fog_figures.ipynb) Fog figures
 
 <p align="center"><img src="figures/fog_night.gif" width="640" alt="The foggiest night, hour by hour"></p>
 Example of the visualization of Fog Climatology:
-<p align="center"><img src="figures/fig_fog_clock.png" width="640" alt="Fog web: stations glow by fog frequency, links by shared fog"></p>
 
 <p align="center"><img src="figures/fig_fog_web.png" width="640" alt="Fog Connections within a network."></p>
 
 <p align="center"><img src="figures/fig_fog_regions.png" width="640" alt="Common fog hours - matrix."></p>
 
-<p align="center"><img src="figures/fig_fog_regions.png" width="640" alt="Common fog hours - matrix."></p>
+<p align="center"><img src="figures/fig_fog_clock.png" width="640" alt="Climatology - fog clock"></p>
 
 ## What is here
 
