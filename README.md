@@ -6,7 +6,8 @@ Fusing surface observations, soundings and NWP to understand and forecast fog an
 
 &nbsp;Station graph &nbsp;·&nbsp;
 [![Fog figures in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sladekd/fog-obs-fusion/blob/main/notebooks/02_fog_figures.ipynb)
-&nbsp;Fog figures
+&nbsp;
+Fog figures
 
 <p align="center"><img src="figures/fog_night.gif" width="640" alt="The foggiest night, hour by hour"></p>
 ------------
