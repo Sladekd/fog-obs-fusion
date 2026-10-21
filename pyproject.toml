@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fogfusion"
+version = "0.1.0"
+description = "Fusing SYNOP observations, soundings and NWP for fog and visibility: station graphs, fog co-occurrence, GNNs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sladekd" }]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "pyproj>=3.5",
+    "matplotlib>=3.7",
+    "pillow>=9.0",
+]
+
+[project.optional-dependencies]
+upperair = ["metpy>=1.5"]
+gnn = ["torch>=2.1", "torch-geometric>=2.4"]
+ml = ["lightgbm>=4.0", "scikit-learn>=1.3", "shap>=0.44"]
+dev = ["pytest>=7", "pyarrow>=14", "nbformat>=5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"fogfusion.resources" = ["*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
